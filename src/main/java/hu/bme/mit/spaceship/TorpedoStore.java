@@ -28,6 +28,7 @@ public class TorpedoStore {
     }
   }
 
+  // Ez egy random generátor, ami a TorpedoStore osztály létrehozásával keletkezik.
   Random generator = new Random();
   public boolean fire(int numberOfTorpedos){
     
